@@ -15,6 +15,14 @@
         "ext-curl": "*",
         "paypal/sdk-core-php":"3.*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "name": "paypal/sdk-core-php",
+            "url":  "git@github.com:Bless-International/sdk-core-php.git",
+            "branch": "master"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "PayPal\\Service": "lib/",
